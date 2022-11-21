@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * strtow - splits a string into words
  * @str: string of words to be split
@@ -41,7 +40,6 @@ char **strtow(char *str)
 	ptr[i] = NULL;
 	return (ptr);
 }
-
 /**
  * isSpace - determines if character is a space or not
  * @c: input char
