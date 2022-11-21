@@ -2,9 +2,9 @@
 C
  By: Julien Barbier
  Weight: 1
- Ongoing second chance project - started Nov 4, 2022 1:00 AM, must end by Nov 10, 2022 12:00 AM
+ Project over - took place from Nov 4, 2022 6:00 AM to Nov 5, 2022 6:00 AM
  An auto review will be launched at the deadline
-In a nutshell
+In a nutshell…
 Auto QA review: 0.0/24 mandatory
 Altogether:  0.0%
 Mandatory: 0.0%
@@ -16,9 +16,9 @@ C static libraries
 Resources
 Read or watch:
 
-What Is A C Library? What Is It Good For?
-Creating A Static C Library Using ar and ranlib
-Using A C Library In A Program
+What Is A “C” Library? What Is It Good For?
+Creating A Static “C” Library Using “ar” and “ranlib”
+Using A “C” Library In A Program
 What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44)
 man or help:
 
@@ -33,7 +33,7 @@ What is a static library, how does it work, how to create one, and how to use it
 Basic usage of ar, ranlib, nm
 Copyright - Plagiarism
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone elses work.
+You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 Requirements
@@ -45,12 +45,12 @@ A README.md file, at the root of the folder of the project is mandatory
 Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 You are not allowed to use global variables
 No more than 5 functions per file
-You are not allowed to use the standard library. Any use of functions like printf, puts, etc is forbidden
+You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
 You are allowed to use _putchar
-You dont have to push _putchar.c, we will use our file. If you do it wont be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you dont have to push them to your repo (if you do we wont take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
+In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-Dont forget to push your header file
+Don’t forget to push your header file
 Bash
 Allowed editors: vi, vim, emacs
 All your scripts will be tested on Ubuntu 20.04 LTS
@@ -89,8 +89,8 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-If you havent coded all of the above functions create empty ones with the right prototype.
-Dont forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
+If you haven’t coded all of the above functions create empty ones with the right prototype.
+Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
 
 julien@ubuntu:~/0x09. Static Librairies$ ar -t libmy.a 
 0-isupper.o
@@ -194,7 +194,7 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x09-static_libraries
 File: libmy.a, main.h
-   
+    
 1. Without libraries what have we? We have no past and no future
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
@@ -233,4 +233,5 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x09-static_libraries
 File: create_static_lib.sh
-    
+     
+

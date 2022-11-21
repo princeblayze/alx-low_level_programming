@@ -10,10 +10,10 @@
 
 int _strlen(char *s)
 {
-	int yusuf;
+	int usman;
 
-	for (yusuf = 0; *s != '\0'; ++s)
-		++yusuf;
+	for (usman = 0; *s != '\0'; ++s)
+		++usman;
 
-	return (yusuf);
+	return (usman);
 }
